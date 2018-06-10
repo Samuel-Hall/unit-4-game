@@ -17,7 +17,8 @@ img {
     height: auto;
 }
 
-.crystal-image {
-    width: 300px;
-    height: 300px;
-  }
+@media screen and (max-width: 330px) {
+    img {
+        width: 23%;
+    }
+}
